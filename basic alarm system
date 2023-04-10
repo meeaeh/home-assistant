@@ -2,7 +2,7 @@
 alarm_control_panel:
   - platform: manual
     name: Home Alarm
-    code: 1234
+    code: 1234 # change this code for arm /disarm code of alarm and ensure any communal devices dont have admin rights and that code ditor is admin only 
     code_arm_required: false
     arming_time: 30 # The time of the 'arming' state before effecting a state change.
     delay_time: 30 # The time of the 'pending' state before triggering the alarm.
